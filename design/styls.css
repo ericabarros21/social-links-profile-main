@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 450px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 12px;
+  align-items: center;
+  padding: 30px;
+}
+section .image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .image img {
+  width: 100%;
+  height: 100%;
+}
+section p {
+  padding-bottom: 20px;
+  color: hsl(0, 0%, 100%);
+}
+section h3 {
+  padding-top: 15px;
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 5px;
+}
+section .pais {
+  color: hsl(75, 94%, 57%);
+}
+section button {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 10px;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+}
+section button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  cursor: pointer;
+}/*# sourceMappingURL=styls.css.map */
